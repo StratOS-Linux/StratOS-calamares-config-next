@@ -1,2 +1,0 @@
-# calamares-conf
-Calamares config
