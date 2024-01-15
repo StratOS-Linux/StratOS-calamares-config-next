@@ -15,16 +15,16 @@ navigation: widget
 
 
 strings:
-    productName:		LugOS
-    shortProductName:   	LugOS
-    version:			2023.12 "Baby steps"
-    shortVersion:        	2023.12
-    versionedName:		LugOS
-    shortVersionedName:		LugOS
-    bootloaderEntryName:	LugOS
-    productUrl:			https://github.com/lugvitc/LUGOS-iso
-    supportUrl:			https://github.com/lugvitc/LUGOS-iso
-    releaseNotesUrl:          	https://github.com/lugvitc/LUGOS-iso
+    productName:		StratOS
+    shortProductName:   	StratOS
+    version:			2024.01
+    shortVersion:        	2024.01
+    versionedName:		StratOS
+    shortVersionedName:		StratOS
+    bootloaderEntryName:	StratOS
+    productUrl:			https://github.com/lugvitc/StratOS-iso
+    supportUrl:			https://github.com/lugvitc/StratOS-iso
+    releaseNotesUrl:          	https://github.com/lugvitc/StratOS-iso
 
 
 uploadServer :
