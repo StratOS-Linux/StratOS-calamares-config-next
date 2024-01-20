@@ -1,36 +1,3 @@
-/*
- * SPDX-FileCopyrightText: no
- * SPDX-License-Identifier: CC0-1.0
- */
-
-/*
-A branding component can ship a stylesheet (like this one)
-which is applied to parts of the Calamares user-interface.
-In principle, all parts can be styled through CSS.
-Missing parts should be filed as issues.
-
-The IDs are based on the object names in the C++ code.
-You can use the Debug Dialog to find out object names:
-  - Open the debug dialog
-  - Choose tab *Tools*
-  - Click *Widget Tree* button
-The list of object names is printed in the log.
-
-Documentation for styling Qt Widgets through a stylesheet
-can be found at
-    https://doc.qt.io/qt-5/stylesheet-examples.html
-    https://doc.qt.io/qt-5/stylesheet-reference.html
-In Calamares, styling widget classes is supported (e.g.
-using `QComboBox` as a selector).
-
-This example stylesheet has all the actual styling commented out.
-The examples are not exhaustive.
-
-Use gammaray
-
-*/
-
-
 /*** Main application window.
  *
  * The main application window has the sidebar, which in turn
@@ -40,13 +7,13 @@ Use gammaray
  */
 
 #mainApp {
-    color: #fbf1c7;
-    background-color: #1d2021;
+    color: #a3aed2;
+    background-color: #1b1a26;
 }
 
 #sidebarApp {
-    color: #fbf1c7;
-    background-color: #1d2021;
+    color: #a3aed2;
+    background-color: #1b1a26;
 }
 #logoApp { 
     background: none;
@@ -70,63 +37,67 @@ Use gammaray
 
 QWidget {
     font: 16px;
-    color: #fbf1c7;
-    background-color: #1d2021;
+    color: #769ff0;
+    background-color: #1b1a26;
 }
 
 QLineEdit {
     font: 16px;
-    color: #fbf1c7;
-    background-color: #282828;
+    color: #a3aed2;
+    background-color: #394260;
 }
 
 QListView {
     font: 16px;
-    color: #fbf1c7;
-    alternate-background-color: #1d2021;
-    background-color: #282828;
+    color: #769ff0;
+    alternate-background-color: #769ff0;
+    background-color: #394260;
 }
 
 QPushButton {
     font: 16px;
-    color: #fbf1c7;
-    background-color: #1d2021;
-    border-color: #282828;
+    color: #769ff0;
+    background-color: #1b1a26;
+    border-color: #394260;
     border-width: 1px;
 }
 
 QToolTip {
     font: 16px;
-    color: #fbf1c7;
-    background-color: #32302f;
+    color: #769ff0;
+    background-color: #212736;
     border: none;
 }
 
 QTreeView {
     font: 16px;
-    color: #fbf1c7;
-    alternate-background-color: #1d2021;
-    background-color: #282828;
+    color: #769ff0;
+    alternate-background-color: #769ff0;
+    background-color: #212736;
 }
 
 #layoutSelector {
     font: 16px;
-    color: #fbf1c7;
-    selection-background-color: #32302f;
+    color: #a3aed2;
+    selection-color: #a3aed2;
+    background-color: #1b1a26;
+    selection-background-color: #1b1a26;
 }
 
 #variantSelector {
     font: 16px;
-    color: #fbf1c7;
-    selection-background-color: #32302f;
+    color: #a3aed2;
+    selection-color: #a3aed2;
+    background-color: #1b1a26;
+    selection-background-color: #1b1a26;
 }
 
 #scrollAreaWidgetContents {
-    color: #fbf1c7;
+    color: #a3aed2;
 }
 
 #defineInfoLabel { 
-    color: #fbf1c7;
+    color: #a3aed2;
 }
 
 /*
