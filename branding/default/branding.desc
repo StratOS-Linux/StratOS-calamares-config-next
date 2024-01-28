@@ -22,9 +22,9 @@ strings:
     versionedName:		StratOS
     shortVersionedName:		StratOS
     bootloaderEntryName:	StratOS
-    productUrl:			https://github.com/lugvitc/StratOS-iso
-    supportUrl:			https://github.com/lugvitc/StratOS-iso
-    releaseNotesUrl:          	https://github.com/lugvitc/StratOS-iso
+    productUrl:			https://github.com/stratos-linux/StratOS-iso
+    supportUrl:			https://github.com/stratos-linux/StratOS-iso
+    releaseNotesUrl:          	https://github.com/stratos-linux/StratOS-iso
 
 
 uploadServer :
