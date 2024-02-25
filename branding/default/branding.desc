@@ -17,8 +17,8 @@ navigation: widget
 strings:
     productName:		StratOS
     shortProductName:   	StratOS
-    version:			2024.01
-    shortVersion:        	2024.01
+    version:			2024.02
+    shortVersion:        	2024.02
     versionedName:		StratOS
     shortVersionedName:		StratOS
     bootloaderEntryName:	StratOS
