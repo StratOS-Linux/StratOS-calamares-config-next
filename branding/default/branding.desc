@@ -35,7 +35,7 @@ uploadServer :
 images:
     productLogo:         "logo.png"
     productIcon:         "logo.png"
-    productWelcome:      "Welcome.png"
+    productWelcome:      "Welcome2.png"
 
 slideshow:               "show.qml"
     
