@@ -1,7 +1,7 @@
 # Maintainer: ZeStig <zestig@duck.com>
 pkgname=stratos-calamares-config
 pkgver=1.0
-pkgrel=6
+pkgrel=7
 pkgdesc="StratOS Calamares config"
 arch=('x86_64')
 url="https://github.com/StratOS-Linux/StratOS-calamares-config"
