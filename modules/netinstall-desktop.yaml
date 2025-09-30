@@ -1,0 +1,61 @@
+- name: "StratOS GNOME config"
+  description: "Installs the GNOME spin of StratOS"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - gdm
+    - gnome-backgrounds
+    - gnome-characters
+    - gnome-control-center
+    - gnome-font-viewer
+    - gnome-keyring
+    - gnome-screenshot
+    - gnome-session
+    - gnome-settings-daemon
+    - gnome-shell
+    - gnome-shell-extensions
+    - gnome-tweaks
+    - gnome-user-share
+    - nautilus
+    - loupe
+    - gnome-disks
+    - gnome-calendar
+    - gnome-calculator
+    - xdg-user-desktop-gnome
+    - xdg-user-dirs-gtk
+    - gparted
+    - gnome-shell-extension-blur-my-shell
+    - gnome-shell-extension-burn-my-windows-git
+    - gnome-shell-extension-forge-git
+    - gnome-shell-extension-space-bar-git
+    - gnome-shell-extension-dash-to-dock
+
+- name: "StratOS Hyprland spin"
+  description: "Installs the Hyprland spin of StratOS"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - conky
+    - ly
+    - waybar
+    - dunst
+    - pipewire-pulse
+    - network-manager-applet
+    - grim
+    - slurp
+    - swappy
+    - pinentry
+    - wireplumber
+    - hyprland
+    - hyprcursor
+    - hyprpaper
+    - hypridle
+    - udiskie
+    - xdg-desktop-portal-hyprland
+    - xdg-desktop-portal-gtk
+    - polkit-gnome
+    - qt6ct
+    - qt5ct
+    - vicinae-bin
