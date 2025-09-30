@@ -1,8 +1,8 @@
 # Maintainer: ZeStig <zestig@duck.com>
-pkgname=stratos-calamares-config
+pkgname=stratos-calamares-config-next
 pkgver=1.0
 pkgrel=8
-pkgdesc="StratOS Calamares config"
+pkgdesc="New StratOS Calamares config for online installations"
 arch=('x86_64')
 url="https://github.com/StratOS-Linux/StratOS-calamares-config"
 license=('GPL')
