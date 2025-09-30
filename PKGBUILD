@@ -4,7 +4,7 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="New StratOS Calamares config for online installations"
 arch=('x86_64')
-url="https://github.com/StratOS-Linux/StratOS-calamares-config"
+url="https://github.com/StratOS-Linux/StratOS-calamares-config-next"
 license=('GPL')
 depends=(
 	'bash'
