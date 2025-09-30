@@ -88,6 +88,62 @@
         - bash-completion
         - xdg-user-dirs
         - xdg-utils
+        - gst-libav
+        - gst-plugins-bad
+        - gst-plugins-ugly
+        - libdvdcss
+        - libopenraw
+        - mlocate
+        - poppler-glib
+    - name: "Hardware"
+      description: "Hardware support tools"
+      selected: true
+      packages:
+        - dmidecode
+        - dmraid
+        - hdparm
+        - hwdetect
+        - lsscsi
+        - mtools
+        - sg3_utils
+        - sof-firmware
+        - linux-firmware
+    - name: "Power Management"
+      description: "Tools for Power Management support"
+      selected: true
+      packages:
+        - cpupower
+        - power-profiles-daemon
+        - upower
+        - powertop
+    - name: "General Tools and Applications"
+      description: ""
+      selected: true
+      packages:
+        - btop
+        - duf
+        - findutils
+        - fsarchiver
+        - git
+        - glances
+        - hwinfo
+        - inxi
+        - meld
+        - nano-syntax-highlighting
+        - fastfetch
+        - pv
+        - python-defusexml
+        - python-packaging
+        - rsync
+        - sed
+        - vi
+        - vim
+        - neovim
+        - ripgrep
+        - micro
+        - nano
+        - openssh
+        - zen-browser-bin
 
 
 
